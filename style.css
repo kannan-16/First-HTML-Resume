@@ -1,0 +1,117 @@
+*  {
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.inline-image {
+    height: 1rem;
+}
+.profile-image {
+    height: 9rem;
+    float: right;
+    margin-left: 100px;
+}
+.logo-image {
+    width: 100px;
+    margin-left: 25px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 0%;
+    align-items: center;
+    /*box-shadow: 0 8px 2px -2px rgb(0,0,0,0.2);*/
+}
+.navigation li p:hover {
+    color: black;
+}
+.navigation li {
+    margin-right: 100px;
+    margin-top: 15px;
+}
+.navigation li:hover {
+    color: black;
+}
+.FillerDiv {
+    flex: 1;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.dropdown-list {
+    display: none;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.section-prof-img {
+    display: flex;
+    /*width: 35%;*/
+    /*box-shadow: 0px 0px 5px black;*/
+}
+.prof-info {
+    /*box-shadow: 0px 0px 5px black;
+    border-radius: 3%;*/
+    width: 74.5%;
+}
+.prof-ach {
+    display: grid;
+    grid-template-columns: 1pr 1pr;
+}
+.border {
+  width: 600px;
+  padding: 0px;
+  border: 2px solid black;
+  margin: 0;
+  border-radius: 0.5rem;
+  background-color: #ee5035;
+  display: flex;
+  align-content: space-between;
+  /*width: 35%;*/
+  justify-content: space-between;
+}
+.border div {
+    width: 450px;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-left: 30px;
+}
+.overall {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.achievements {
+}
+.achievements ul{
+    width: 600px;
+    padding: 0px;
+    border: 3px solid orangered;
+    margin: 5px;
+    border-radius: 0.5rem;
+    list-style: none;
+}
+
+.work-grids ul {
+    padding: 0px;
+    border: 3px solid black;
+    margin: 5px;
+    border-radius: 0.5rem;
+    list-style: none;
+}
+.footer-align {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
